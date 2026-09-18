@@ -4,6 +4,14 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Eatgrapes"]
 description = "Structured Java source construction for Rust decompilers and code generators"
+license = "MIT"
+repository = "https://github.com/Eatgrapes/JSyntax"
+documentation = "https://docs.rs/jsyntax"
+keywords = ["java", "ast", "codegen", "decompiler", "syntax"]
+categories = ["compilers", "development-tools"]
+
+[package.metadata.docs.rs]
+all-features = true
 
 [features]
 default = []
