@@ -1,0 +1,17 @@
+[package]
+name = "jsyntax"
+version = "0.1.0"
+edition = "2024"
+authors = ["Eatgrapes"]
+description = "Structured Java source construction for Rust decompilers and code generators"
+
+[features]
+default = []
+ferro-jtype = ["dep:ferro-jtype"]
+
+[dependencies]
+unicode-general-category = "1.1"
+ferro-jtype = { version = "0.2.5", optional = true }
+
+[lints.rust]
+unsafe_code = "forbid"
